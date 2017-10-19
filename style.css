@@ -3,6 +3,7 @@
 body{
   background-image: url("images/WOOD.JPG");
   background-repeat: repeat-x;
+  background-repeat: repeat-y;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color:  #7d7d7d;
