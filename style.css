@@ -1,0 +1,107 @@
+/* Colors and Fonts */
+
+body{
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #E07A5F;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a{
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #E07A5F;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+/* First simple components */
+
+.text-center{
+  text-align: center;
+}
+
+.container{
+  width: 700px;
+  margin: 30px auto;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.image{
+  padding: 15px
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline li i{
+  font-size: 30px;
+}
+
+.btn-red {
+  background-color: #FFFFFF;
+  color: #7d7d7d;
+  font-weight: 300;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #7d7d7d;
+  margin-top: 20px;
+}
+
+.btn-red:hover{
+  border: 1px solid #E07A5F;
+}
+
+.avatar{
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+}
